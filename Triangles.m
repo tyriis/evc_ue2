@@ -42,9 +42,9 @@ P3 = [-(1+D);1+C;-(1+B)];
 % P2P3 is pointing from P2 to P3
 % P3P1 is pointing from P3 to P1
 
-P1P2 = P1 - P2; % TODO: edit this
-P2P3 = P2 - P3; % TODO: edit this
-P3P1 = P3 - P1; % TODO: edit this
+P1P2 = P2 - P1; % TODO: edit this
+P2P3 = P3 - P2; % TODO: edit this
+P3P1 = P1 - P3; % TODO: edit this
 
 % your results are saved for later evaluation:
 P1P2_saved = P1P2; % DON'T OVERRIDE P1P2_saved !!!
